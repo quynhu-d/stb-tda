@@ -7,6 +7,9 @@ from gensim.models import Word2Vec
 
 
 def main():
+    """
+    Check pre-trained CBoW models semantics: synonyms for the word "dog"; results for "woman+king-man".
+    """
     model_dir, save_dir = sys.argv[1:]
     for model_path in tqdm(sorted(glob.glob(f"{model_dir}/*"))):
         model = Word2Vec.load(model_path)

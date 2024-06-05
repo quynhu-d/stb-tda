@@ -1,15 +1,23 @@
 import pandas as pd
 import numpy as np
 from tqdm.auto import tqdm
+import matplotlib.pyplot as plt
+
 
 import glob
 def get_holes_per_chunk(dir="holes/RU/words", filenames="ru_word_holes_*.npy"):
+    """
+        Get all homology representatives (cycles) for each chunk.
+    """
     hole_contours = {}
     for file in glob.glob(f"{dir}/{filenames}"):
         hole_contours["_".join(file.split('_')[3:])[:-4]] = get_cycles(np.load(file) - 1)
     return hole_contours
 
 def collect_holes_from_chunks(dir="holes/RU/words/"):
+    """
+        Merge all homologies from different chunks.
+    """
     def get_homology_birth_death(files):
         h_bd = {}
         for fn in files:
@@ -31,6 +39,9 @@ def collect_holes_from_chunks(dir="holes/RU/words/"):
 
 
 def get_cycles(cycles):
+    """
+        Get homology representatives (cycles) based on list of connected edges.
+    """
     new_cycle_flag = True
     cycles_list = []
     cur_cycle = set()
@@ -57,8 +68,7 @@ def get_cycles(cycles):
 
 def get_hole_knn(model, words):
     """
-    TODO
-    returns matrix with number of k for each pair of words using w2v model
+        Returns matrix with number of k for each pair of words using w2v model.
     """
     def all_words_in_topn(words, topn):
         for w in words:

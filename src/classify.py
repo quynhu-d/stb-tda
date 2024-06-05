@@ -7,6 +7,19 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import roc_auc_score, average_precision_score
 
 def svc_classifier(X_train, y_train, X_test, y_test):
+    """
+    Pipeline for SVM classifier with parameter selection by CV.
+
+    Parameters:
+        X_train - training set
+        y_train - training labels
+        X_test  - test set
+        y_test  - test labels
+    
+    Returns:
+        fitted SVC model,
+        dictionary with metrics for the model (accuracy on train/test, auc roc and pr on test)
+    """
     svc = LinearSVC(dual=False)
     reg_Cs = np.logspace(-5, 1, 20)
     linear_svc = GridSearchCV(svc, {"C": reg_Cs}, cv=10)    # chooses best by score estimate
@@ -35,6 +48,24 @@ def decision_tree_classifier(
     X_train, y_train, X_test, y_test, 
     depth_grid=range(3, 16), samples_leaf_grid=range(1, 5), random_forest=False
 ):
+    """
+    Pipeline for DT/RF classifier for different parameters.
+
+    Parameters:
+        X_train - training set
+        y_train - training labels
+        X_test  - test set
+        y_test  - test labels
+        depth_grid - set of values for max_depth parameter in DT/RF
+        samples_leaf_grid - set of values for min_samples_leaf parameter in DT/RF
+        random_forest - if True, train a Random Forest classifier, 
+                        if False, train a Decision Tree classifier
+    
+    Returns:
+        fitted models for all parameters,
+        dictionary with accuracy values on train/test for each model
+    """
+
     models = {}
     accuracy = {part: np.zeros((len(depth_grid), len(samples_leaf_grid))) for part in ['train', 'test']}
 
@@ -65,6 +96,9 @@ import glob
 np.random.seed(2024)
 bot_names = ['lstm', 'balaboba', 'gpt2', 'mGPT']
 def get_train_test_datasets(lang="RU", part="word", bot_subset=("gpt2", "balaboba")):
+    """
+    Helper function to get train/test data.
+    """
     def read_subdf(filename, text_type):
         a = pd.read_csv(filename)
         a[a.columns[-2]] = a[a.columns[-2]].astype(int)
@@ -97,6 +131,18 @@ def get_train_test_datasets(lang="RU", part="word", bot_subset=("gpt2", "balabob
     )
 
 def pipeline_clf(bot_subset, method='svc'):
+    """
+    Full pipeline.
+
+    Parameter:
+        bot_subset - names of two bots to use during training 
+                     (models are tested on texts of remaining bots)
+        method     - "svc"/"dt"/"rf", classifier model to use
+    
+    Returns:
+        results (see `svc_classifier` and `decision_tree_classifier`) for English and Russian data
+        on word/bigram/trigram levels.
+    """
     results = {'EN': {}, 'RU': {}}
     for lang in ['EN', 'RU']:
         for part in ['word', 'bigram', 'trigram']:
