@@ -1,0 +1,4 @@
+['spank', 'spoilt', 'motherless', 'childless', 'bewail', 'repine', 'flinch', 'budge']
+['vaccinator', 'meliorist', 'bigwiggery', 'talkt', 'whil', 'forsake', 'befriend', 'gainsay', 'condone']
+['forsake', 'repine', 'inly', 'guiltlesse', 'steeme', 'trun', 'palmate', 'hyperequatorial', 'entrap', 'browbeat', 'intimidate', 'propitiate', 'befriend']
+['mistress', 'maid', 'lady', 'girl', 'boy', 'lad', 'youngster', 'chap', 'feller', 'dat', 'eh', 'sir', 'madam', 'isabella']
