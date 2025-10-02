@@ -1,0 +1,47 @@
+['elect episcopal', 'appoint arbiter', 'appoint these', 'authorize these', 'worker these', 'worker whose', 'goldsmith whose', 'worthy whose', 'worthy bhaer', 'worthy shepherd', 'royal shepherd', 'royal cuirassier', 'royal seat', 'elect seat']
+
++eps
+
+['russian valet', 'include browning', 'needy spendthrift', 'corporation international', 'rich parishioner', 'destine of', 'foreign notepaper', 'subscription bounty', 'respectable angling', 'famous ninth', 'swedish archive', 'retainer meanwhile', 'namely viz', 'parish denounce', 'local carpentier', 'siege these', 'private commentary', 'famous loyalty', 'acquainted these', 'sovereign fair', 'retired plumber', 'respective harangue', 'pastor indirectly', 'provincial congress']
+
+*********************************************************************************
+['much bachelor', 'much anglo', 'much greek', 'townsfolk greek', 'and latin', 'above latin', 'above list', 'stockholder list', 'certain list', 'certain magazine', 'iscot magazine', 'marginal manuscript', 'scrawled letter', 'mismanage receipt', 'nice receipt', 'nice establishment', 'residuary establishment', 'fortunate establishment', 'fortunate bachelor']
+
++eps
+
+['bobby magistrate', 'officer letter', 'sleek title', 'autograph presentation', 'read newspaper', 'ordinarily liberal', 'charming candidate', 'simple fee', 'channel copy', 'uncommon english', 'only representative', 'newspaper publisher', 'until edition', 'barbecue school']
+
+*********************************************************************************
+['grimly expectant', 'modestly apologetic', 'guiltily embarrassed', 'tremendously awkward', 'hard awkward', 'hard such', 'continually such', 'continually versify', 'constantly wherein', 'blindness wherein', 'god wherein', 'god disown', 'saint even', 'ashen even', 'lazy even', 'lazy watchful', 'wakeful watchful', 'quietly alert', 'alarmingly alert']
+
++eps
+
+['sorrowfully sorrowfully', 'genuinely gracious', 'though rude', 'small impulsive', 'sinful frail', 'seriously overstrain', 'tres rare', 'wherefore meliboeus', 'flexile gracefulness', 'leppe apparently', 'langwidge apparently', 'tedious moreover', 'blasphemy notwithstanding', 'useless bewail', 'whilst adore', 'turbulence quiet', 'whimsically puzzle', 'sometimes egregiously', 'obtuse entertainer', 'hard latin', 'fateful heroic', 'momentarily ennoble', 'picture abominable', 'long akin', 'fox wert', 'pardonable exasperation', 'lawless defenceless', 'habitually penetrate', 'speaker depress', 'hauteur repel', 'frequently powerful', 'agreeably oracular', 'stubborn catechist', 'honied friendly', 'foul abettor', 'harpy whose', 'sometimes annoyingly', 'former languid', 'old youthful', 'realist instinctively', 'jacketed jovial', 'avenel enrage', 'willingly appease', 'immobility perfect', 'long insensible', 'fast weaken', 'god sacrificial', 'hideous swarthy', 'heavy paralyze']
+
+*********************************************************************************
+['music languorous', 'singing clear', 'even clear', 'even olivia', 'even young', 'wretched young', 'wretched misanthropical', 'heartless unarm', 'outrageous silliness', 'incorrigible joker', 'incorrigible drunkard', 'frolic drunkard', 'dancing maniac', 'dancing minuet']
+
++eps
+
+['effeminate fop', 'often disdain', 'illumine young', 'stupid attest', 'forlorn disconsolate', 'notoriously sporty', 'sinful cardinal', 'artful bray', 'artful insinuation', 'wild superstitious', 'scandalous abusive', 'devilish plucky', 'giddy spoiled']
+
+*********************************************************************************
+['happier therein', 'blindness wherein', 'constantly wherein', 'constantly preserv', 'continually versify', 'continually such', 'wicked such', 'wicked unscrupulousness', 'heartless unarm', 'odious dorchester', 'artful lisette', 'obstinate adherence', 'obstinate beggar', 'incorrigible drunkard', 'faithless drunkard', 'frolic drunkard', 'frolic whereat', 'gambol frolick', 'cackle overly', 'croak taw', 'backslider thus', 'croak thus']
+
++eps
+
+['peon slothful', 'cautious pedagogue', 'selfe conceale', 'hard er', 'stolid stoical', 'thy traitor', 'expr tho', 'grossly full', 'both spiritually', 'foul salutation', 'potency instill', 'quell whole', 'constant finding', 'redoubtable triumvirate', 'miserably decayed', 'valiant virginian', 'armadillo lastly', 'merciful strickalthrow', 'console isabella', 'invariable miscalculation', 'allay hysteria', 'such cheering', 'mowgli whose', 'frolic familiarly', 'sylph methinks', 'euery rowme', 'declaim lamentably', 'beguile even', 'impudence still', 'compelling tang', 'womans bondage', 'alas foolish', 'bagpipe whose', 'frightfully horribly', 'appal tembarom', 'rarely endowed', 'maori whose', 'prosaic physiologist', 'colossally egoistic', 'unfraternal maner', 'monstrous chinese', 'serious abroad', 'unsuspicious free', 'hoot spectator', 'jacobite waif', 'mar albeit', 'whose lunacy', 'saturnine humorist']
+
+*********************************************************************************
+['graver note', 'bald note', 'bald occiput', 'bristly uncombed', 'scarred campaigner', 'gaunt molt', 'gaunt dog', 'reluctant dog', 'misproud mongrel', 'yap cur', 'grained brute', 'hard brute', 'hard such', 'wicked such', 'wicked unscrupulousness', 'hateful plumbing', 'vile submissive', 'vile seem', 'unlovely seem', 'dead seem', 'dead terranova', 'dead note']
+
++eps
+
+['rugged principality', 'incurably mundane', 'faire paragon', 'like aster', 'plucky little', 'dreary adversity', 'callow grasshopper', 'often excitingly', 'ja fai', 'grotesque graven', 'envy master', 'thy traitor', 'appalling animadversion', 'deathly waxen', 'unmistakably furtive', 'wild superstitious', 'bravely sophy', 'plainly moody', 'wanton assailant', 'mono maniac', 'quar soun', 'peasant wove', 'unruly brotherhood', 'snare al', 'grotesquely compound', 'unreasonable often', 'weird looking', 'shabby despite']
+
+*********************************************************************************
+['nascent indolent', 'even indolent', 'even widowed', 'even young', 'thy young', 'thy shews', 'thy peaceful', 'havery peaceful', 'mascarene quiet', 'close quiet', 'close delicate', 'inherently delicate', 'low delicate', 'low rude', 'flagrantly rude', 'ugly rude', 'ugly cleanness', 'ugly half', 'sophism half', 'seem half', 'seem ingenuousness', 'seem thoughtless', 'inconceivably careless', 'captious thoughtless']
+
++eps
+
+['heartless unarm', 'hateful porridge', 'volatile mercurial', 'positively pained', 'grow abstracted', 'recitative half', 'naturally solitary', 'sadden somewhat', 'relentless pertinacity', 'wretched puny', 'like directness', 'like emotional', 'scarcely bold', 'silverbridge half', 'dedlock brilliant', 'dark comic', 'weak headed', 'mysteriously rich', 'miserably unromantic', 'precipitate guileless', 'hoary eld', 'harpy whose', 'relentlessly albeit', 'chicadee lisp', 'low rating', 'positively marvellous', 'gaunt nun', 'grievous tyrannical', 'whose courtier', 'low vertebrae', 'spake truly', 'low flute', 'mar albeit']
